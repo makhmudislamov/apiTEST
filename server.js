@@ -4,7 +4,7 @@ let mongoose = require('mongoose');
 let morgan = require('morgan');
 let bodyParser = require('body-parser');
 let port = 8080;
-let book = require('./app/routes/book');
+let book = require('./routes/book');
 let config = require('config'); //we load the db location from the JSON files
 //db options
 let options = {
